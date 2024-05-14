@@ -94,14 +94,9 @@ function drawClockFace() {
     }
 }
 function CreateClockHand(){
-    clockSecond.style.textContent ='';
-    clockSecond.style.width ='3px';
-    clockSecond.style.height ='170px';
-    clockSecond.style.background ='red';
-    clockSecond.style.borderRadius ='20%';
-    clockSecond.style.zIndex ='5';
-    clockSecond.style.top ='20%';
-    clockSecond.style.left ='50%';
+
+
+
 
     clockMinute.style.height ='160px';
     clockMinute.style.width ='7px';
@@ -114,12 +109,14 @@ function CreateClockHand(){
     clockMinute.style.zIndex ='4';
 
 
-
-    clockHour.style.width ='15px';
-    clockHour.style.height ='125px';
-    clockHour.style.borderRadius ='20%';
+    clockHour.style.textContent ='';
+    clockHour.style.background ='green';
+    clockHour.style.width ='1px';
+    clockHour.style.height ='1px';
+    clockHour.style.borderRadius ='50%';
     clockHour.style.zIndex ='3';
-    clockHour.style.top ='29%';
+
+
 
 
 
