@@ -95,22 +95,11 @@ function drawClockFace() {
 }
 function CreateClockHand(){
 
-
-
-
-    clockMinute.style.height ='160px';
-    clockMinute.style.width ='7px';
-    clockMinute.style.display ='block';
-    clockMinute.style.position ='absolute';
-    clockMinute.style.top ='22%';
-    clockMinute.style.left ='50%';
-    clockMinute.style.right ='90%';
-    clockMinute.style.bottom ='55%';
+    clockMinute.style.width ='1px';
+    clockMinute.style.height ='1px';
     clockMinute.style.zIndex ='4';
 
-
     clockHour.style.textContent ='';
-    clockHour.style.background ='green';
     clockHour.style.width ='1px';
     clockHour.style.height ='1px';
     clockHour.style.borderRadius ='50%';

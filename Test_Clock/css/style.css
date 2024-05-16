@@ -75,17 +75,15 @@ body{
     z-index: 11;
 }
 .clock__hand--minute{
-    width: 5px;
+
 
     &&:before{
         display: block;
         position: absolute;
-        left: 50%;
-        bottom: -50px;
-        transform: translateX(-50%);
+        transform: translate(-50%,-80%);
         content: "";
         width: 5px;
-        height: 210px;
+        height: 180px;
         background: black;
     }
     z-index: 0;
